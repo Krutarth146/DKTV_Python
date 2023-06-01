@@ -98,3 +98,20 @@ jk.close()
 # Use Random Module  (1 to 10000) ---> Refer
 # if random generated number is Prime then it must written in prime.txt
 # if random generated number is Armstrong then it must written in armstrong.txt
+
+
+import random
+
+print(random.randint(1,100))
+
+
+dict1 = [
+    {"Name" : "Kruatrth", 'marks' : 900},
+    {"Name" : "Henish", 'marks' : 1800},
+    {"Name" : "Mahir", 'marks' : 1200},
+]
+
+dict1[0]['Name'] = "Priyank"
+print(dict1)
+
+
