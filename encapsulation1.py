@@ -49,6 +49,6 @@ Royal.show_password()
 # print(Royal.password) # Error
 print(Royal._password) # changed Password
 
-# print(Royal.__Royal_bank_ac)
+# print(Royal.__Royal_bank_ac)   # GIves Error
 
 print(Royal._Royal__Royal_bank_ac)
