@@ -20,3 +20,16 @@ el = [Employee(101,"Dhruv"), SalesEmployee(102,"Krrish", 700)]
 
 for x in el:
     x.print_details()
+
+
+class Solution(object):
+    def search(self, nums, target):
+        if target in nums:
+            return nums[target]
+        else:
+            return -1            
+
+
+s1 = Solution()
+
+print(s1.search([1],0))
