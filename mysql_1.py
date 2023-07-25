@@ -33,9 +33,21 @@ cur = mydb.cursor()
 # dk = (20, "Dev", 45, "male", "123")
 
 
-S = "INSERT INTO AADHAR VALUES (%s, %s, %s)"
-dk = (33333, "Manoj", 20)
+# S = "INSERT INTO AADHAR VALUES (%s, %s, %s)"
+# dk = (33333, "Manoj", 20)
+
+# cur.execute(S,dk)
+
+# mydb.commit()
+
+
+# a = 1024
+# num = 2
+
+S = "INSERT INTO sample2 VALUES (%s, %s, %s)"
+dk = (2, "Manoj", 10)
 
 cur.execute(S,dk)
 
 mydb.commit()
+
